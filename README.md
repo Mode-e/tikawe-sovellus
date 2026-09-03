@@ -1,26 +1,20 @@
 # 🏸 Sulkapallosovellus (tikawe-sovellus)
 
-sivustolla etsitään peliseuraa ja ilmoittaudutaan muodin pelivuoroille. Sovellus auttaa pelaajia löytämään sopivia pelikavereita.
 
----
+-Sovelluksessa käyttäjät pystyvät etsimään peliseuraa sulkapalloon. Ilmoituksessa lukee missä ja milloin pelivuoro on sekä tarvittava pelaajien määrä.
 
-## Ominaisuudet
+-Käyttäjä pystyy luomaan tunnuksen ja kirjautumaan sisään sovellukseen.
 
-### Käyttäjienhallinta
-- **Tunnukset:** Käyttäjä pystyy luomaan oman tunnuksen ja kirjautumaan sisään sovellukseen.
-- **Käyttäjäsivu:** Näyttää listan käyttäjän omista ilmoituksista sekä niiden kokonaismäärän.
+-Käyttäjä pystyy lisäämään ilmoituksia ja muokkaamaan ja poistamaan niitä.
 
-### Ilmoitusten hallinta
-- **Luo ja muokkaa:** Käyttäjä voi lisätä uusia ilmoituksia sulkapallovuoroista sekä muokata tai poistaa omia ilmoituksia.
-- **Tiedot ilmoituksessa:** Ilmoituksesta käy ilmi pelivuoron aika, paikka sekä tarvittava pelaajamäärä.
-- **Selaus:** Käyttäjät näkevät kaikki sovellukseen lisätyt ilmoitukset.
+-Käyttäjä näkee sovellukseen lisätyt ilmoitukset.
 
-### Hakeminen ja suodatus
-- **Aikaperusteinen haku:** Ilmoituksia voi etsiä ja suodattaa pelivuoron ajankohdan ja paikan mukaan.
-- **Luokittelut:** Ilmoituksia voi suodattaa seuraavien tietojen perusteella:
-  - **Pelipaikka:** (esim. *Kumpula Unisport* tai *Otaniemi Unisport*)
-  - **Pelaajan taso:** *aloittelija*, *keskitaso* tai *edistynyt*
+-Käyttäjä pystyy etsimään ilmoituksia sen perusteella, milloin vuoro on.
 
-### Vuoroille osallistuminen
-- **Ilmoittautuminen:** Käyttäjä voi ilmoittautua muiden luomille pelivuoroille.
-- **Osallistujalista:** Ilmoituksesta näkee suoraan, ketkä muut käyttäjät ovat jo ilmoittautuneet mukaan.
+-Käyttäjäsivu näyttää, montako ilmoitusta käyttäjä on lähettänyt ja listan ilmoituksista.
+
+-Käyttäjä pystyy valitsemaan esimerkiksi seuraavia luokitteluja:
+    -Pelipaikka: Kumpula Unisport tai Otaniemi Unisport
+    -Pelaajan taso: aloittelija, keskitaso tai edistynyt
+
+-Käyttäjä pystyy ilmoittautumaan pelivuoroon. Ilmoituksessa näytetään, ketkä käyttäjät ovat ilmoittautuneet.
