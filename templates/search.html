@@ -1,4 +1,23 @@
 {% extends "layout.html" %}
+
 {% block content %}
+
+    <h1>Etsi ilmoituksia</h1>
+
+    <form action="/create" method="post">
+        <p>
+        Paikka: <br />
+        <input type="text" name="Location" />
+        </p>
+        <p>
+        Päivä: <br />
+        <input type="date" name="Day" />
+        </p>
+        <p>
+        Pelaajien taso: <br />
+        <input type="text" name="Skill_level" />
+        </p>
+        <input type="submit" value="find" />
+    </form>
 
 {% endblock %}
